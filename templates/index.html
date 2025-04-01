@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Color Blindness Corrector</title>
+</head>
+<body>
+    <h1>Upload Image</h1>
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="image" accept="image/*" required>
+        <select name="type">
+            <option value="protanopia">Protanopia (Red-Blind)</option>
+            <option value="deuteranopia">Deuteranopia (Green-Blind)</option>
+            <option value="tritanopia">Tritanopia (Blue-Blind)</option>
+        </select>
+        <button type="submit">Correct</button>
+    </form>
+</body>
+</html>
