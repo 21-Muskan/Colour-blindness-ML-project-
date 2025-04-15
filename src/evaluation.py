@@ -2,7 +2,7 @@
 import torch
 import numpy as np
 from torch.utils.data import TensorDataset, DataLoader
-from train import ColorCorrectionNet  # Import your model class
+from train import ColorCorrectionNet 
 import matplotlib.pyplot as plt
 from torchmetrics.image import StructuralSimilarityIndexMeasure
 
